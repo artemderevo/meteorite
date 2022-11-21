@@ -6,8 +6,9 @@ public class Main {
         int meteorite = 0;
         int startYear = nowYear - 200;
         int finalYear = nowYear + 100;
+        int period = 79;
         for (int year = 0; year <= 2022; year++) {
-            meteorite = 79 +meteorite;
+            meteorite = period + meteorite;
              if (meteorite >= startYear && meteorite <= finalYear) {
                  System.out.println(meteorite);
              }
